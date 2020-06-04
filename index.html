@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>😷 Embedding with PSH 😷</title>
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Embedded Analytics with man like Andre</h1>
+    <div>
+      <button id="hideButton">Hide the viz</button>
+      <button id="showButton">Show the viz</button>
+      <button id="exportPDF">Export PDF</button>
+      <button id="exportPPT">Export PPT</button>
+    </div>
+    <div>
+      <input type="number" placeholder="Min value" id="minValue" />
+      <input type="number" placeholder="Max value" id="maxValue" />
+      <button id="applyFilter">Apply filter</button>
+    </div>
+    <!-- ctrl and forward slash for comment -->
+    <div id="vizContainer"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
