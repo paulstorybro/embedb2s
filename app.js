@@ -1,4 +1,4 @@
-console.log("Hello from Jeff");
+console.log("Hello from Jeff!");
 let viz;
 
 // select the HTML elements
